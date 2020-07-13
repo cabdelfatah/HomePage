@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<link rel="stylesheet" href="styles.css">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+
+<head>
+  <meta charset="utf-8">
+  <title>A-fatah ~ Home</title>
+</head>
+
+<body>
+  <nav>
+    <h1>Hello,</h1>
+    <div class="music-container" id="music-container">
+      <div class="music-info">
+        <h4 id="title"></h4>
+        <div class="progress-container" id="progress-container">
+          <div class="progress" id="progress"></div>
+        </div>
+      </div>
+
+      <audio src="music/here.mp3" id="audio"></audio>
+
+      <div class="img-container">
+        <img src="music/here.jpg" alt="music-cover" id="cover" />
+      </div>
+      <div class="navigation">
+        <button id="prev" class="action-btn">
+          <i class="fas fa-backward"></i>
+        </button>
+        <button id="play" class="action-btn action-btn-big">
+          <i class="fas fa-play"></i>
+        </button>
+        <button id="next" class="action-btn">
+          <i class="fas fa-forward"></i>
+        </button>
+      </div>
+  </nav>
+  <hr>
+
+  <script src="music/script.js">
+
+  </script>
+</body>
+
+</html>
