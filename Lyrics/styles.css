@@ -5,8 +5,8 @@ form {
 form input {
   border: 0;
   border-radius: 50px;
-  font-size: 16px;
-  padding: 15px 30px;
+  font-size: 20px;
+  padding: 15px 80px;
   /* width: 100%; */
 }
 
@@ -39,4 +39,6 @@ p {
 .result {
   text-align: center;
   justify-content: center;
+  color: #fff;
+  font-size: 16px;
 }
